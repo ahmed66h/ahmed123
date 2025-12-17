@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+   
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(10, 14, 17);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 200px;
+}
+
+.logo{
+  
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;  
+  font-weight: 700;
+  font: size 1.8em ;
+
+}
+
+  
+
+.navigation a{
+color: rgb(219, 219, 232);
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 100px;
+
+
+
+}
+  
+.navigation a:hover{
+color: blue;
+
+
+
+
+
+}
+
+
+section{
+padding: 100px 40px;
+
+
+}
+
+
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+
+color: rgb(104, 80, 169);
+align-items: center;
+background:url(images/ahmedaaa.png) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.main h2{
+
+
+
+
+  color: aliceblue;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.main h2{
+
+  color:white;
+  font-size: 3em;
+  font-weight: 60px;
+
+
+
+}
+.main h3{color: dodgerblue;
+  font-size: 1.5em;
+  font-size: larger;
+
+
+
+}
+
+
